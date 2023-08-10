@@ -12,7 +12,7 @@ setup(
     author_email='yeochaerim@gmail.com',
     url='https://github.com/cryeo/sparksql-magic',
     license='MIT License',
-    install_requires=['pyspark>=2.3.0', 'ipython>=7.4.0'],
+    install_requires=['ipython>=7.4.0'],
     packages=find_packages(exclude=('tests', 'docs')),
     python_requires='>=3.6',
     classifiers=[
